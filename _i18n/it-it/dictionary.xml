@@ -2099,7 +2099,6 @@ L'host dell'hypervisor deve disporre dei dischi SSD richiesti collegati e dispon
   <block id="209d48c97092139c09f12b8b898b3ebb" category="cell">Perpetuo (non è richiesto alcun rinnovo)</block>
   <block id="fdad6dbf8e8406dac26765af9059a3a1" category="cell">Durata fissa in base all'acquisto (rinnovo obbligatorio)</block>
   <block id="20e5e85bddb25cf1cf39977f4a5b8f1f" category="cell">Durata del lease per l'aggregato di dati</block>
-  <block id="6aade83f8151a6756008a80c389bef65" category="cell">Non applicabile da un'ora a sette giorni</block>
   <block id="a051cb6fe36d0d57186040136f51ded4" category="cell">Numero di serie del nodo</block>
   <block id="754352c17de30934f31734f144b3d9d0" category="summary">È possibile utilizzare una licenza di valutazione se si desidera valutare ONTAP Select prima di prendere la decisione di acquisto. La licenza di valutazione è inclusa nell'utility di amministrazione di ONTAP Select Deploy e viene applicata automaticamente a ciascun nodo ONTAP Select come parte di un'implementazione di valutazione.</block>
   <block id="8b3398557c7fb55b263bf52bece82b68" category="doc">Licenze di valutazione</block>
@@ -3826,4 +3825,20 @@ Intercluster
   <block id="1c5ffa58ac07641f5cec5616c07b2ba2" category="sidebar">Aggiungere immagini ONTAP Select</block>
   <block id="0a15f7ba73868a32304fdf52855463c9" category="sidebar">Rimuovere le immagini ONTAP Select</block>
   <block id="afc9d68a1be701598b5ef94dc0be2844" category="sidebar">Ripristinare l'implementazione per un cluster a due nodi</block>
+  <block id="f24ce81f056d5acd59788df7f5ab36a1" category="list-text">FlexCache</block>
+  <block id="aae155889087fca42368d9fab8b54ee6" category="list-text">NDMP</block>
+  <block id="e681a3b45989b468533c4b90ee960bf9" category="cell">Non applicabile</block>
+  <block id="7ce9d272dad1050f5d215fea78fec004" category="cell">Da un'ora a sette giorni</block>
+  <block id="1106adf8812d775cf27b79c3606184f6" category="cell">Nove cifre e uguale al numero di serie della licenza</block>
+  <block id="cda405d8561cd2797065f70348fbe747" category="cell">Venti cifre e generato dal Manager di licenza</block>
+  <block id="db5eb84117d06047c97c9a0191b5fffe" category="cell">Supporto</block>
+  <block id="d7b5ad2c890d9e01c658dc9e1cc80af5" category="cell">Componente aggiuntivo e limitato nel tempo</block>
+  <block id="b055659deac2e10b8eadf9bae15af191" category="cell">Incluso e co-chiamato</block>
+  <block id="2b2fba693aacdb90002ef3efdb1f458b" category="cell">Tipi di licenza</block>
+  <block id="7c8735b3789d1d371da9c168d892b5b2" category="cell">Standard, premium, premium XL</block>
+  <block id="f6f75165e8287838950283461281ea99" category="cell">Licenza di valutazione disponibile</block>
+  <block id="c8ce06302aadd8032e956b943dce085c" category="cell">Valutazione all'aggiornamento di produzione</block>
+  <block id="cfc60e5db5da2e3856f4ae65f1b4493b" category="cell">Ridimensionamento delle macchine virtuali ONTAP Select (da piccole a medie, da medie a grandi)</block>
+  <block id="5afd324114e926d9bb06b382e5c6f40e" category="cell">Applicazione: Licenza scaduta</block>
+  <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">Sì (nessun Grace period)</block>
 </blocks>
