@@ -101,7 +101,6 @@ A causa dell'ambiente virtualizzato utilizzato con ONTAP Select, la funzione di 
 La modifica delle proprietà delle porte ONTAP, tra cui velocità, duplex e controllo di flusso, non è supportata.
 * Processori di servizio
 * Migrazione SVM
-* Disaster recovery delle macchine virtuali storage (DR SVM)
 * Conformità SnapLock
 * Copie Snapshot a prova di manomissione
 * VMware HCX
