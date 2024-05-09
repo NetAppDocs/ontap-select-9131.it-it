@@ -94,6 +94,7 @@ Fibre Channel e Fibre Channel over Ethernet non sono supportati.
 Il tradizionale monitoraggio dello stato di salute utilizzato con un'implementazione ONTAP basata su hardware è specifico per i componenti hardware sottostanti. A causa dell'ambiente virtualizzato utilizzato con ONTAP Select, i monitor dello stato di salute non sono attivi.
 * Gruppi di interfacce
 I gruppi di interfacce non sono supportati.
+* MTKM (Multi-tenant Key Manager)
 * Supporto per offload NIC
 A causa dell'ambiente virtualizzato utilizzato con ONTAP Select, la funzione di offload NIC non è supportata.
 * Dischi di crittografia per lo storage NetApp
