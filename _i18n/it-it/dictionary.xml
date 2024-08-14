@@ -2336,21 +2336,12 @@ Adattatori di standby: vmnic4, vmnic7, vmnic5</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Note legali</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Le note legali forniscono l'accesso a dichiarazioni di copyright, marchi, brevetti e altro ancora.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
-  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
-  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marchi</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, il logo NETAPP e i marchi elencati nella pagina dei marchi NetApp sono marchi di NetApp, Inc. Altri nomi di società e prodotti potrebbero essere marchi dei rispettivi proprietari.</block>
-  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
-  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevetti</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Un elenco aggiornato dei brevetti di proprietà di NetApp è disponibile all'indirizzo:</block>
-  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
-  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Direttiva sulla privacy</block>
-  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
-  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open source</block>
-  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">I file di avviso forniscono informazioni sul copyright e sulle licenze di terze parti utilizzate nel software NetApp.</block>
   <block id="e5b41f4225b398db953f0053c56d6542" category="summary">Quando si inizia a esplorare ONTAP Select e si pianifica un'implementazione, è utile acquisire familiarità con la terminologia e i concetti chiave.</block>
   <block id="c2bc0ae1706759fd80fd4a8f16903a8d" category="doc">Terminologia e concetti chiave</block>
   <block id="391a56271aac0c7272e3e9bc2a840da1" category="list-text">ONTAP Select Deploy è l'utility di amministrazione utilizzata per implementare i cluster ONTAP Select. L'utility di implementazione viene eseguita in una macchina virtuale Linux dedicata. È possibile accedere all'utility di implementazione tramite l'interfaccia utente Web, la shell di gestione CLI e l'API REST.</block>
@@ -3830,7 +3821,6 @@ Intercluster
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">Sì (nessun Grace period)</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">Se l'operazione di creazione del cluster viene avviata ma non viene completata, la password amministrativa di ONTAP definita potrebbe non essere applicata. In questo caso, contattare il supporto tecnico NetApp per assistenza.</block>
   <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">Le implementazioni di Virtual NAS (vNAS) supportano i cluster ONTAP Select su SAN virtuale (VSAN), alcuni prodotti HCI e tipi di datastore esterni. L'infrastruttura sottostante di queste configurazioni fornisce resilienza del datastore.</block>
-  <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1 e versioni successive ora supporta DR SVM come origine con un massimo di 16 relazioni. Il supporto DR SVM è limitato all'utilizzo della versione ONTAP di origine alle versioni +2, ad esempio da 9.12.1 a 9.14.1.</block>
   <block id="5c4629755c5a0a5545bb649c6d58d899" category="list-text">Supporto di distribuzione ONTAP Select aggiornato</block>
   <block id="f371e1e74365e433f105f30c886225bf" category="inline-link-macro">Note sulla versione di ONTAP Select 9.14.1</block>
   <block id="2183c79114d56889f4a8854299f703a5" category="list-text">A partire da aprile 2024, ONTAP Select Deployment 9.13.1 non sarà più disponibile sul sito di supporto NetApp. Se si esegue ONTAP Select Deploy 9.13.1, è necessario eseguire l'aggiornamento a ONTAP Select Deploy 9.14.1P2 il prima possibile. Per ulteriori informazioni, consultare <block ref="6635db952aa4480bb5bc591b4d6d32f6" category="inline-link-macro-rx"></block>.</block>
@@ -3867,4 +3857,5 @@ Intercluster
   <block id="c3975d39937733b863b8e078a435a60a" category="paragraph">Acquistare, generare e caricare un file di licenza aggiornato è il modo in cui Deploy rileva le licenze rinnovate e i contratti di supporto.</block>
   <block id="79416550309ddcac023464218d55a23d" category="paragraph">Se la data di fine del contratto di supporto del livello di capacità è passata, il nodo può continuare a funzionare, ma non sarà possibile scaricare e installare gli aggiornamenti ONTAP, o chiamare il supporto tecnico NetApp per assistenza senza prima aggiornare il contratto di supporto.</block>
   <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">Se un abbonamento al pool di capacità scade, il sistema avvisa l'utente prima, ma dopo 30 giorni, se il sistema si spegne, non si riavvia finché non viene installata una sottoscrizione aggiornata sul server di distribuzione.</block>
+  <block id="f99bb666310fb365b4d0029c161a384b" category="admonition">ONTAP Select 9.12.1 (e versioni successive) ora supporta DR SVM come origine e destinazione, con un massimo di 16 relazioni. Il supporto DR SVM è limitato all'utilizzo della versione ONTAP di origine alle versioni +2. Ad esempio, l'origine ONTAP Select 9.12.1 può connettersi alle versioni di ONTAP di destinazione 9.12.1, 9.13.1 o 9.14.1.</block>
 </blocks>
